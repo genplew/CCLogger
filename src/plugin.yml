@@ -1,0 +1,17 @@
+author: genplew
+database: false
+description: Logs chat and commands
+main: me.genplew.plugins.cclogger.CCLogger
+name: CaraotacraftLogger
+startup: postworld
+version: '1.0.0'
+permissions:
+  none:
+    description: none
+    default: op
+commands:
+  none:
+    description: none
+    usage: /<command>
+    permission: none
+    permission-message: none!
